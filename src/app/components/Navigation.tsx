@@ -42,7 +42,7 @@ export function Navigation() {
               isScrolled ? 'text-slate-900' : 'text-white'
             }`}
           >
-            DM
+            DM.DEV
           </a>
 
           {/* Desktop Navigation */}

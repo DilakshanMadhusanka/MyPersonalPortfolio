@@ -46,12 +46,13 @@ export function About() {
             
             <div>
               <p className="text-lg text-slate-700 mb-6">
-                With over 5 years of experience in AI and machine learning, I specialize in developing 
-                cutting-edge solutions that bridge the gap between theoretical research and practical applications.
+                I'm a Computer Science undergraduate from University of Ruhuna with a deep passion for Artificial Intelligence and Machine Learning. My journey in tech began with curiosity about how intelligent systems work, and has evolved into a dedicated pursuit of building AI solutions that make a meaningful impact.
               </p>
               <p className="text-lg text-slate-700 mb-6">
-                My expertise spans across computer vision, natural language processing, and reinforcement learning. 
-                I've successfully deployed models serving millions of users and contributed to open-source ML frameworks.
+                From developing predictive models to exploring natural language processing and computer vision, I thrive on the challenge of transforming complex data into actionable insights. I believe in continuous learning and staying at the forefront of AI innovation.
+              </p>
+              <p className="text-lg text-slate-700 mb-6">
+                My goal is to contribute to the advancement of AI technology while building practical applications that solve real-world problems. I'm actively seeking opportunities to apply my skills in internships and entry-level roles where I can grow as an AI/ML engineer.
               </p>
               <div className="flex flex-wrap gap-2">
                 {['Python', 'TensorFlow', 'Scikit-learn', 'Keras', 'Git'].map((tech) => (
