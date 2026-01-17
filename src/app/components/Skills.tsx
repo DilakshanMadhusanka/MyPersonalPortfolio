@@ -18,6 +18,7 @@ export function Skills() {
         { name: 'Python', level: 95 },
         { name: 'SQL & NoSQL Databases', level: 85 },
         { name: 'Javascript', level: 80 },
+        { name: 'Typescript', level: 70 },
         { name: 'Git & GitHub', level: 88 }
       ]
     },
