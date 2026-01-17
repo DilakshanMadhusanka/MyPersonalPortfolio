@@ -6,7 +6,7 @@ export function Skills() {
     {
       category: 'Machine Learning',
       skills: [
-        { name: 'Deep Learning (TensorFlow/PyTorch)', level: 95 },
+        { name: 'Deep Learning (TensorFlow)', level: 95 },
         { name: 'Computer Vision', level: 90 },
         { name: 'Natural Language Processing', level: 88 },
         { name: 'Reinforcement Learning', level: 82 }
@@ -17,8 +17,8 @@ export function Skills() {
       skills: [
         { name: 'Python', level: 95 },
         { name: 'SQL & NoSQL Databases', level: 85 },
-        { name: 'Docker & Kubernetes', level: 80 },
-        { name: 'Git & CI/CD', level: 88 }
+        { name: 'Javascript', level: 80 },
+        { name: 'Git & GitHub', level: 88 }
       ]
     },
     {
@@ -26,7 +26,6 @@ export function Skills() {
       skills: [
         { name: 'Data Preprocessing & Feature Engineering', level: 92 },
         { name: 'AWS (SageMaker, EC2, Lambda)', level: 85 },
-        { name: 'Big Data (Spark, Hadoop)', level: 78 },
         { name: 'MLOps & Model Deployment', level: 87 }
       ]
     }
