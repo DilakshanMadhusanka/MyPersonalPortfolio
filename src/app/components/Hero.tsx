@@ -11,49 +11,12 @@ export function Hero() {
   };
 
   const handleDownloadResume = () => {
-    // Create a new PDF document
-    const doc = new jsPDF();
-    
-    // Add content to the PDF
-    doc.setFontSize(24);
-    doc.text('Alex Thompson', 20, 20);
-    
-    doc.setFontSize(16);
-    doc.text('AI/ML Engineer', 20, 35);
-    
-    doc.setFontSize(12);
-    doc.text('Email: alex.thompson@email.com', 20, 50);
-    doc.text('Phone: +1 (555) 123-4567', 20, 60);
-    doc.text('Location: San Francisco, CA', 20, 70);
-    
-    doc.setFontSize(16);
-    doc.text('Summary', 20, 90);
-    doc.setFontSize(11);
-    const summary = 'Experienced AI/ML Engineer with 5+ years of expertise in developing cutting-edge solutions that bridge theoretical research and practical applications. Specializing in computer vision, NLP, and reinforcement learning.';
-    const splitSummary = doc.splitTextToSize(summary, 170);
-    doc.text(splitSummary, 20, 100);
-    
-    doc.setFontSize(16);
-    doc.text('Skills', 20, 125);
-    doc.setFontSize(11);
-    doc.text('• Deep Learning (TensorFlow, PyTorch, Keras)', 20, 135);
-    doc.text('• Computer Vision & Natural Language Processing', 20, 143);
-    doc.text('• MLOps & Model Deployment (AWS, Docker, Kubernetes)', 20, 151);
-    doc.text('• Python, SQL, Git, CI/CD', 20, 159);
-    
-    doc.setFontSize(16);
-    doc.text('Experience', 20, 180);
-    doc.setFontSize(11);
-    doc.text('Senior AI/ML Engineer | Tech Company | 2021 - Present', 20, 190);
-    doc.text('• Deployed models serving millions of users', 25, 198);
-    doc.text('• Contributed to open-source ML frameworks', 25, 206);
-    
-    doc.text('ML Engineer | StartUp Inc | 2019 - 2021', 20, 220);
-    doc.text('• Built scalable ML pipelines for production', 25, 228);
-    doc.text('• Achieved 95% accuracy on key projects', 25, 236);
-    
-    // Save the PDF
-    doc.save('Alex_Thompson_Resume.pdf');
+    const link = document.createElement("a");
+    link.href = "/SC12876.pdf";
+    link.download = "Dilakshan_Madhusanka_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
