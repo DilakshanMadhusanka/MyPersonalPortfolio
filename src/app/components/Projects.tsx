@@ -7,11 +7,11 @@ import { ImageWithFallback } from '../../app/components/imagewithfallback/ImageW
 export function Projects() {
   const projects = [
     {
-      title: 'Neural Network Visualization Platform',
+      title: 'Multiple-Disease-Prediction-System',
       description: 'Interactive web platform for visualizing and understanding deep learning architectures. Built with TensorFlow.js and React for real-time model training visualization.',
       image: 'https://images.unsplash.com/photo-1737505599159-5ffc1dcbc08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3Njg1NzkyNzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['TensorFlow', 'React', 'Python', 'WebGL'],
-      github: 'https://github.com',
+      tags: ['Python', 'Pandas', 'Numpy', 'Scikit-Learn', 'Streamlit'],
+      github: 'https://github.com/DilakshanMadhusanka/Multiple-Disease-Prediction-System',
       demo: 'https://example.com'
     },
     {
