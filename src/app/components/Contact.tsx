@@ -14,7 +14,6 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic would go here
     alert('Thank you for your message! This is a demo form.');
   };
 
