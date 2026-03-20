@@ -24,7 +24,7 @@ export function Projects() {
     },
     {
       title: 'Lecture PDF Q&A Bot using RAG & FAISS',
-      description: 'Real-time object detection system for autonomous vehicles using YOLO and custom CNN architectures. Achieved 92% mAP on COCO dataset.',
+      description: 'An AI-powered chatbot that uses RAG and FAISS to understand lecture PDFs and deliver accurate, context-aware answers instantly.',
       image: 'https://tse4.mm.bing.net/th/id/OIP.oMs2h2LKa_LGOcJVM75jswHaEM?rs=1&pid=ImgDetMain&o=7&rm=3',
       tags: ['Python', 'Streamlit', 'LangChain','FAISS'],
       github: 'https://github.com/DilakshanMadhusanka/Lecture_PDF-Q-A-Bot-FAISS',
