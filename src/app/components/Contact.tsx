@@ -14,7 +14,7 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Thank you for your message! This is a demo form.');
+    window.location.href = `mailto:madhusankamrd@gmail.com?subject=Message&body=Hello`;
   };
 
   const contactInfo = [
