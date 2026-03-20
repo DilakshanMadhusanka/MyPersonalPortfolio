@@ -9,7 +9,7 @@ export function Projects() {
     {
       title: 'Multiple Disease Prediction System',
       description: 'Interactive web platform for visualizing and understanding deep learning architectures. Built with TensorFlow.js and React for real-time model training visualization.',
-      image: '',
+      image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/584/244/datas/original.png',
       tags: ['Python', 'Pandas', 'Numpy', 'Scikit-Learn', 'Streamlit', 'Jupyter Notebook'],
       github: 'https://github.com/DilakshanMadhusanka/Multiple-Disease-Prediction-System',
       demo: 'https://example.com'
