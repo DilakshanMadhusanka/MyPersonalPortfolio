@@ -23,11 +23,11 @@ export function Projects() {
       demo: 'https://example.com'
     },
     {
-      title: 'Computer Vision Object Detection',
+      title: 'Lecture PDF Q&A Bot using RAG & FAISS',
       description: 'Real-time object detection system for autonomous vehicles using YOLO and custom CNN architectures. Achieved 92% mAP on COCO dataset.',
       image: 'https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDF8fHx8MTc2ODUyNjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['PyTorch', 'OpenCV', 'CUDA', 'C++'],
-      github: 'https://github.com',
+      tags: ['Python', 'Streamlit', 'LangChain'],
+      github: 'https://github.com/DilakshanMadhusanka/Lecture_PDF-Q-A-Bot-FAISS',
       demo: 'https://example.com'
     },
     {
