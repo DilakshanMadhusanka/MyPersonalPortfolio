@@ -43,7 +43,7 @@ export function Hero() {
             <div className="flex-1 text-center md:text-left">
               <div className="mb-6">
                 <div className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-sm mb-4">
-                  AI/ML Engineer
+                  Aspiring AI/ML Engineer
                 </div>
               </div>
               
