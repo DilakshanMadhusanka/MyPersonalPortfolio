@@ -12,7 +12,7 @@ export function Hero() {
 
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/SC12876(7).pdf";
+    link.href = "/SC12876.pdf";
     link.download = "Dilakshan_Madhusanka_Resume.pdf";
     document.body.appendChild(link);
     link.click();
