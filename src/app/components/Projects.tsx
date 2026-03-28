@@ -36,7 +36,8 @@ export function Projects() {
       image: 'https://images.unsplash.com/photo-1526378722484-bd91ca387e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb2RlfGVufDF8fHx8MTc2ODU0NDUwNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       tags: ['LangChain', 'FAISS', 'OpenAI Embeddings', 'PostgresSQL'],
       github: 'https://github.com/ZentroThread/RAG_ChatBot',
-      demo: ['https://client-frontend-azure.vercel.app/', 'https://fabriq-frontend.vercel.app/']
+      demo: 'https://client-frontend-azure.vercel.app/',
+      demo: 'https://fabriq-frontend.vercel.app/'
     }
   ];
 
