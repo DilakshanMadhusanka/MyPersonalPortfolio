@@ -37,7 +37,6 @@ export function Projects() {
       tags: ['LangChain', 'FAISS', 'OpenAI Embeddings', 'PostgresSQL'],
       github: 'https://github.com/ZentroThread/RAG_ChatBot',
       demo: 'https://client-frontend-azure.vercel.app/',
-      demo: 'https://fabriq-frontend.vercel.app/'
     }
   ];
 
