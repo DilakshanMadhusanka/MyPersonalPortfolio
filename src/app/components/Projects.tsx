@@ -12,7 +12,7 @@ export function Projects() {
       image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/584/244/datas/original.png',
       tags: ['Python', 'Pandas', 'Numpy', 'Scikit-Learn', 'Streamlit', 'Jupyter Notebook'],
       github: 'https://github.com/DilakshanMadhusanka/Multiple-Disease-Prediction-System',
-      demo: 'https://example.com'
+      //demo: 'https://example.com'
     },
     {
       title: 'Unknown Face Recognition System',
@@ -20,7 +20,7 @@ export function Projects() {
       image: 'https://tse3.mm.bing.net/th/id/OIP._OOV_ABq1bCjcTrl3c3aBwHaEP?w=1024&h=587&rs=1&pid=ImgDetMain&o=7&rm=3',
       tags: ['Python', 'Numpy', 'OpenCV'],
       github: 'https://github.com/DilakshanMadhusanka/Unknown_Face_Recognition',
-      demo: 'https://example.com'
+      //demo: 'https://example.com'
     },
     {
       title: 'Lecture PDF Q&A Bot using RAG & FAISS',
@@ -28,7 +28,7 @@ export function Projects() {
       image: 'https://tse4.mm.bing.net/th/id/OIP.oMs2h2LKa_LGOcJVM75jswHaEM?rs=1&pid=ImgDetMain&o=7&rm=3',
       tags: ['Python', 'Streamlit', 'LangChain','FAISS'],
       github: 'https://github.com/DilakshanMadhusanka/Lecture_PDF-Q-A-Bot-FAISS',
-      demo: 'https://example.com'
+      //demo: 'https://example.com'
     },
     {
       title: 'RAG Chatbot using Python',
