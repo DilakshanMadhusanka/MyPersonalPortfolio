@@ -33,7 +33,7 @@ export function Projects() {
     {
       title: 'RAG Chatbot using Python',
       description: 'A RAG chatbot retrieves relevant data from a database and then generates accurate, context-aware answers based on that information.',
-      image: '',
+      image: 'RAG_Chatbot.png',
       tags: ['LangChain', 'FAISS', 'OpenAI Embeddings', 'PostgresSQL'],
       github: 'https://github.com/ZentroThread/RAG_ChatBot',
       demo: 'https://client-frontend-azure.vercel.app/',
